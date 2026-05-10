@@ -6,7 +6,6 @@ Run files individually
   
 ## 1. MNIST Digit Recognition (`mnistproblem.py`)
 This project involves building a model to recognize handwritten digits from the MNIST dataset.
-* **Methodology:** [Insert method, e.g., Linear Regression, k-NN, or a Simple Neural Network].
 * **Dataset:** The MNIST database of handwritten digits has a training set of 60,000 examples and a test set of 10,000 examples.
 
   ## 2. Nairobi Subcounty Coloring (`nairobi_coloring.py`)
