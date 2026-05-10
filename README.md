@@ -1,7 +1,7 @@
 ## How to Run
-Run like a normal python file
-Run the file individually
-* Libraries: `numpy`, `matplotlib` (and `tensorflow` if used in the MNIST problem).
+Run like any other python file
+Run files individually
+* Libraries needed: `numpy`, `matplotlib` and `tensorflow` 
 
   
 ## 1. MNIST Digit Recognition (`mnistproblem.py`)
