@@ -25,6 +25,6 @@ This script solves the classic Australia map coloring problem.
  *  **How to run**
  *  You will need SWI-Prog , use this link to download it (https://www.swi-prolog.org/build/unix.html)
  *  Open your terminal in the project directory and run -- `swipl -s family_logic.pl`
- *  Querying: at the ?- prompt, you can test the logic
+ *  Querying: at the `?-` prompt, you can test the logic
  *  to find siblings: `sibling(X,patrick).`
  *  to reload after edits: `make.`
