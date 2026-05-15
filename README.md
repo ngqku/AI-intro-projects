@@ -29,4 +29,4 @@ This script solves the classic Australia map coloring problem.
  *  to find siblings: `sibling(X,patrick).`
  *  to reload after edits: `make.`
 * **Problems**
-*The double vision problem: Due to definition logic in the facts, some variables may be queried twice 
+ * The 'double vision' problem: Due to definition logic in the facts, some variables may be queried twice 
