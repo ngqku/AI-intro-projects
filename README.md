@@ -27,4 +27,4 @@ This script solves the classic Australia map coloring problem.
  *  Open your terminal in the project directory and run -- `swipl -s family_logic.pl`
  *  Querying: at the ?- prompt, you can test the logic
  *  to find siblings: `sibling(X,patrick).`
- *  to reload after edits: make.
+ *  to reload after edits: `make.`
