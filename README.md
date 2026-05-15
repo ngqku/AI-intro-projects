@@ -35,7 +35,7 @@ This script solves the classic Australia map coloring problem.
 This script demonstrates graph navigation using the two fundametal search strategies
 ** Algorithms implemented
 * Breadth-first search(BFS): explores the neighbours level by level
-  Queue(FIFO) data structure used
+*   Queue(FIFO) data structure used
 * Depth-First Search(DFS)-Dives deep into one brach before backtracking
-  Stack(LIFO) data structure used
+*   Stack(LIFO) data structure used
   
