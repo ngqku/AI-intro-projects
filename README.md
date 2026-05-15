@@ -20,11 +20,13 @@ This script solves the classic Australia map coloring problem.
 
 ## 4.Family Logic Engine(family_logic.pl)
  This small project is a Knowledge-Based system developed in SWI-prolog.
- * **Concept:** it utilizes Predicate Calculus to model and query family relationships.
+**Concept:** it utilizes Predicate Calculus to model and query family relationships.
  * It defines a set of core atomic facts, the system then uses interface rules to dynamically derive relationships like siblings ,cousins and and more
- *  **How to run**
+**How to run**
  *  You will need SWI-Prog , use this link to download it (https://www.swi-prolog.org/build/unix.html)
  *  Open your terminal in the project directory and run -- `swipl -s family_logic.pl`
- *  Querying: at the `?-` prompt, you can test the logic
+ *  Querying: at the `?-` prompt,you can test the logic
  *  to find siblings: `sibling(X,patrick).`
  *  to reload after edits: `make.`
+**Problems**
+*The double vision problem: Due to definition logic in the facts, some variables may be queried twice 
