@@ -29,4 +29,13 @@ This script solves the classic Australia map coloring problem.
  *  to find siblings: `sibling(X,patrick).`
  *  to reload after edits: `make.`
 * **Problems**
- * The 'double vision' problem: Due to definition logic in the facts, some variables may be queried twice 
+ * The 'double vision' problem: Due to definition logic in the facts, some variables may be queried twice
+
+## 5.Breadth first seach and depth first search(bfs_dfs_search.py)
+This script demonstrates graph navigation using the two fundametal search strategies
+** Algorithms implemented
+* Breadth-first search(BFS): explores the neighbours level by level
+  Queue(FIFO) data structure used
+* Depth-First Search(DFS)-Dives deep into one brach before backtracking
+  Stack(LIFO) data structure used
+  
