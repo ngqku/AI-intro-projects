@@ -51,18 +51,17 @@ def dfs_path(graph, start, goal):
         
         if node not in visited:
             for neighbor in graph.get(node, []):
-                #create a new path by adding the neighbor to the old parth
                 new_path = list(path)
                 new_path.append(neighbor)
                 stack.append(new_path)
             
-            #mark this nofe as visited
+            #mark this node as visited
             visited.add(node)
             print(F"Stack now contins: {list(stack)}")
             print("-"*30)
     return None
 
-# Execute the function
+# Execute the functions
 result = bfs_path(graph, 'Start', 'Goal')
 print(f"\nFINAL BFS PATH: {result}\n")
 result=dfs_path(graph, 'Start','Goal')
