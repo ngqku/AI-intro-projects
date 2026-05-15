@@ -12,8 +12,19 @@ This project involves building a model to recognize handwritten digits from the 
 * **Concept:** Applying CSP logic to a local geographic map.
 * **Objective:**To color all the sub-counties in Nairobi ensuring that no adjacent sub-counties have the same color using the minimum colors possible
  
-* ## 3. Australia Map Coloring (`australia_map_coloring.py`)
+## 3. Australia Map Coloring (`australia_map_coloring.py`)
 This script solves the classic Australia map coloring problem. 
 * **Algorithm:** Constraint Satisfaction Problem (CSP) using backtracking.
 * **Goal:** To color each region of Australia (WA, NT, Q, NSW, V, SA, T) such that no two adjacent regions share the same color using only three colors.
-* 
+
+
+##4.Family Logic Engine(family_logic.pl)
+ This small project is a Knowledge-Based system developed in SWI-prolog.
+ * **Concept:** it utilizes Predicate Calculus tp model and query family relationships.
+ * It defines a set of core atomic facts, the system then uses interface rules to dynamically derive relationships like siblings ,cousins ane and more
+ *  **How to run**
+ *  You will need SWI-Prog , you can download it here(https://www.swi-prolog.org/build/unix.html)
+ *  Open your terminal in the project directory and run -- swipl -s family_logic.pl
+ *  Querying: at the ?- prompt, you can test the logic
+ *  to find siblings: sibling(X,patrick).
+ *  to reload after edits: make.
